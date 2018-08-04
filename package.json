@@ -1,10 +1,9 @@
 {
   "name": "mcs",
   "main": "./lib/mcs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom package to format the code with a new style removing redundant spaces :)",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "mcs:format"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
