@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle mcs",
+        "command": "mcs:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "mcs",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "mcs:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
